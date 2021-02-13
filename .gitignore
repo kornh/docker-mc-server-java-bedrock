@@ -13,3 +13,4 @@ server-files/plugins/PluginMetrics/config.yml
 server-files/plugins/Geyser-Spigot/public-key.pem
 server-files/plugins/floodgate-bukkit/public-key.pem
 server-files/plugins/floodgate-bukkit/encrypted.txt
+server-files/data/**
