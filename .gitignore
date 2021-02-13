@@ -1,0 +1,15 @@
+.DS_Store
+data/**
+server-files/logs/**
+server-files/banned-ips.json
+server-files/banned-players.json
+server-files/eula.txt
+server-files/usercache.json
+server-files/whitelist.json
+server-files/ops.json
+server-files/plugins/floodgate-bukkit/linked-players.db
+server-files/plugins/floodgate-bukkit/key.pem
+server-files/plugins/PluginMetrics/config.yml
+server-files/plugins/Geyser-Spigot/public-key.pem
+server-files/plugins/floodgate-bukkit/public-key.pem
+server-files/plugins/floodgate-bukkit/encrypted.txt
