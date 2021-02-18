@@ -1,5 +1,7 @@
 vpwd=$(pwd)
 
+echo $vpwd
+
 mkdir ./data
 mkdir ./data/world
 mkdir ./data/world_nether
@@ -10,5 +12,5 @@ docker run --rm \
     -p 25565 \
     -p 19132 \
     -p 25575 \
-    -v $vpwd'/data:/app/data' \
     mc-server:latest #   -it \
+    #-v $vpwd'/data:/app/data' \
