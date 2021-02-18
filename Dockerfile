@@ -17,5 +17,5 @@ COPY ./server-files /app
 
 WORKDIR /app
 
-CMD sh /app/run.sh
+CMD sh /app/start.sh
 #ENTRYPOINT [ "sh /app/run.sh" ]
