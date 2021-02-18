@@ -1,1 +1,1 @@
-docker build -t mc-server:latest .
+docker build  --progress plain -tmc-server:latest .

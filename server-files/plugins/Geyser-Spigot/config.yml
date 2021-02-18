@@ -10,7 +10,7 @@
 bedrock:
   # The IP address that will listen for connections.
   # There is no reason to change this unless you want to limit what IPs can connect to your server.
-  address: 127.0.0.1
+  address: 0.0.0.0
   # The port that will listen for connections
   port: 19132
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
@@ -26,7 +26,7 @@ remote:
   # The IP address of the remote (Java Edition) server
   # If it is "auto", for standalone version the remote address will be set to 127.0.0.1,
   # for plugin versions, Geyser will attempt to find the best address to connect to.
-  address: 127.0.0.3
+  address: 0.0.0.0
   # The port of the remote (Java Edition) server
   # For plugin versions, if address has been set to "auto", the port will also follow the server's listening port.
   port: 25565
