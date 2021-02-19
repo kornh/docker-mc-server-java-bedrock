@@ -9,9 +9,13 @@ services:
   gateway:
     build: ./geyser-standalone
     ports: 
-      - "19132:19132"
+      - "19133:19132"
     volumes:
       - key-path:/app/floodgate-bukkit
+  bedrock-connect:
+    build: ./bedrock-connect
+    ports:
+      - "19132:19132"
 volumes:
   world-data: {}
   key-path: {}

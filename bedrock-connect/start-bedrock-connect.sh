@@ -1,0 +1,1 @@
+java -jar BedrockConnect-1.0-SNAPSHOT.jar nodb=true custom_servers="./custom_server/list.json"
