@@ -1,10 +1,1 @@
 .DS_Store
-data/**
-server-files/logs/**
-server-files/banned-ips.json
-server-files/banned-players.json
-server-files/usercache.json
-server-files/whitelist.json
-server-files/ops.json
-server-files/plugins/floodgate-bukkit/linked-players.db
-server-files/data/**
