@@ -2,8 +2,9 @@ services:
   server:
     build: ./spigot-server
     ports:
-      - "25565"
+      - "25565:25565"
     volumes:
       - world-data:/app/data
+      - key-path:/app/plugins/floodgate-bukkit/
 volumes:
   world-data: {}
