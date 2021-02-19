@@ -1,0 +1,9 @@
+services:
+  server:
+    build: ./spigot-server
+    ports:
+      - "25565"
+    volumes:
+      - world-data:/app/data
+volumes:
+  world-data: {}
