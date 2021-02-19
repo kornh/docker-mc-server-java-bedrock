@@ -6,5 +6,12 @@ services:
     volumes:
       - world-data:/app/data
       - key-path:/app/plugins/floodgate-bukkit/
+  gateway:
+    build: ./geyser-standalone
+    ports: 
+      - "19132:19132"
+    volumes:
+      - key-path:/app/floodgate-bukkit
 volumes:
   world-data: {}
+  key-path: {}
