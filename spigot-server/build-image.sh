@@ -1,1 +1,0 @@
-docker build --progress plain -t mc-server:latest .

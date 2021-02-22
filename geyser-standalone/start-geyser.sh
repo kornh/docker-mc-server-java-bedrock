@@ -1,1 +1,0 @@
-java -Xms1024M -jar Geyser.jar
